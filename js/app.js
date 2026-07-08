@@ -639,6 +639,7 @@ function debounce(fn, ms) {
   };
 }
 
+document.querySelector('#btnHome').onclick = renderHome;
 document.querySelector('#btnConfig').onclick = renderConfig;
 document.querySelector('#btnFecharPendencia').onclick = () => document.querySelector('#modalPendencia').close();
 document.querySelector('#btnCancelarPendencia').onclick = () => document.querySelector('#modalPendencia').close();
